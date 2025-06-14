@@ -6,275 +6,47 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>886</width>
-    <height>721</height>
+    <width>584</width>
+    <height>342</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>QC DEL Flash Tool</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="verticalLayoutWidget">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>200</y>
-      <width>881</width>
-      <height>391</height>
+      <x>180</x>
+      <y>20</y>
+      <width>231</width>
+      <height>81</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="tabWidget" name="tabWidget">
-       <property name="currentIndex">
-        <number>0</number>
-       </property>
-       <widget class="QWidget" name="tab">
-        <attribute name="title">
-         <string>主页</string>
-        </attribute>
-        <widget class="QLabel" name="label_2">
-         <property name="geometry">
-          <rect>
-           <x>20</x>
-           <y>10</y>
-           <width>181</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;QC EDL Flash Tool&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-        <widget class="QTextBrowser" name="textBrowser">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>30</y>
-           <width>881</width>
-           <height>331</height>
-          </rect>
-         </property>
-         <property name="html">
-          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:19px; background-color:#1f1f1f;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; font-weight:600; color:#569cd6;&quot;&gt;# QEFT(基于开源项目edl的GUI高通刷机程序)&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; color:#cccccc;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; font-weight:600; color:#569cd6;&quot;&gt;# 目前处于开发阶段，可能无法使用&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; color:#cccccc;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; font-weight:600; color:#569cd6;&quot;&gt;### 项目简介&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; color:#cccccc;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; font-weight:600; color:#569cd6;&quot;&gt;#### QEFT是一个基于开源项目edl的GUI高通刷机程序，旨在简化高通设备的刷机过程。QEFT使用Python编写，使用PyQt5作为GUI框架，提供了一个直观的用户界面，方便用户进行刷机操作。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; color:#cccccc;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; font-weight:600; color:#569cd6;&quot;&gt;### 食用说明&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; color:#cccccc;&quot;&gt;编写ing&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; color:#cccccc;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; font-weight:600; color:#569cd6;&quot;&gt;### 贡献流程&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas','Courier New','monospace'; font-size:14px; font-weight:600; color:#569cd6;&quot;&gt;#### 欢迎贡献代码&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="tab_2">
-        <attribute name="title">
-         <string>分区刷入</string>
-        </attribute>
-        <widget class="QTableWidget" name="tableWidget">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>40</y>
-           <width>871</width>
-           <height>261</height>
-          </rect>
-         </property>
-         <row>
-          <property name="text">
-           <string>1</string>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string>2</string>
-          </property>
-         </row>
-         <column>
-          <property name="text">
-           <string>分区名称</string>
-          </property>
-         </column>
-         <column>
-          <property name="text">
-           <string>分区类型</string>
-          </property>
-         </column>
-         <column>
-          <property name="text">
-           <string>大小</string>
-          </property>
-         </column>
-         <item row="0" column="0">
-          <property name="text">
-           <string>boot</string>
-          </property>
-         </item>
-         <item row="0" column="1">
-          <property name="text">
-           <string>boot</string>
-          </property>
-         </item>
-         <item row="0" column="2">
-          <property name="text">
-           <string>64MB</string>
-          </property>
-         </item>
-         <item row="1" column="0">
-          <property name="text">
-           <string>super</string>
-          </property>
-         </item>
-         <item row="1" column="1">
-          <property name="text">
-           <string>super</string>
-          </property>
-         </item>
-         <item row="1" column="2">
-          <property name="text">
-           <string>4096MB</string>
-          </property>
-         </item>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="tab_3">
-        <attribute name="title">
-         <string>分区清除</string>
-        </attribute>
-        <widget class="QTableWidget" name="tableWidget_2">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>40</y>
-           <width>871</width>
-           <height>281</height>
-          </rect>
-         </property>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="tab_6">
-        <attribute name="title">
-         <string>分区读取</string>
-        </attribute>
-        <widget class="QTableWidget" name="tableWidget_3">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>30</y>
-           <width>871</width>
-           <height>301</height>
-          </rect>
-         </property>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="tab_4">
-        <attribute name="title">
-         <string>超级恢复专用</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_5">
-        <attribute name="title">
-         <string>关于</string>
-        </attribute>
-       </widget>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="verticalLayoutWidget_3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>600</y>
-      <width>861</width>
-      <height>61</height>
-     </rect>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;设备连接中....&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_3">
-     <item>
-      <widget class="QProgressBar" name="progressBar">
-       <property name="value">
-        <number>24</number>
-       </property>
-      </widget>
-     </item>
-    </layout>
    </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget">
+   <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>20</y>
-      <width>211</width>
-      <height>151</height>
+      <y>120</y>
+      <width>531</width>
+      <height>31</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="iconlayout"/>
-   </widget>
-   <widget class="QWidget" name="gridLayoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>0</y>
-      <width>141</width>
-      <height>141</height>
-     </rect>
+    <property name="text">
+     <string>请保证设备进入9008并且已经在loader仓库中放置了您设备的loader文件</string>
     </property>
-    <layout class="QGridLayout" name="gridLayout"/>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>150</y>
-      <width>141</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>刷新设备连接状态</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="verticalLayoutWidget_2">
-    <property name="geometry">
-     <rect>
-      <x>720</x>
-      <y>0</y>
-      <width>151</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_2"/>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>20</y>
-      <width>231</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;QC EDL Flash Tool(QEFT)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;作者：GH Studio&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;版本：啥也不是&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;更新日期：现在&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>730</x>
-      <y>150</y>
-      <width>131</width>
-      <height>28</height>
+      <x>220</x>
+      <y>200</y>
+      <width>111</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -287,7 +59,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>886</width>
+     <width>584</width>
      <height>26</height>
     </rect>
    </property>
@@ -300,14 +72,6 @@ p, li { white-space: pre-wrap; }
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>tabWidget</class>
-   <extends>QTabWidget</extends>
-   <header location="global">qfluentwidgets</header>
-   <container>1</container>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>
