@@ -2,6 +2,8 @@
 
 # 目前处于开发阶段，可能无法使用
 
+## ZH_CN/[English](EN_README.md)
+
 ### 项目简介
 
 #### QEFT是一个基于开源项目edl的GUI高通刷机程序，旨在简化高通设备的刷机过程。QEFT使用Python编写，使用PyQt5作为GUI框架，提供了一个直观的用户界面，方便用户进行刷机操作。
@@ -15,6 +17,8 @@
 - - edl文件夹：存放edl项目文件
 
 ### 开发说明
+可以参考API文档
+[BK_EDLClient_API文档](BK_EDLVLIENT_API_README.md)
 ~~~
 注意：本项目基于开源项目edl开发，项目代码中未包含edl项目的代码，刷机前请先下载/克隆edl项目并将其放入edl文件夹中。
 
@@ -25,13 +29,13 @@ pip3 install -r requriements.txt
 
 ## 开发目标：2025/6/14更新
 ### 本次开发目标
-#### 完善设备识别和加载逻辑（可以参考edl仓库readme）
+#### 完善设备识别和加载逻辑（可以参考edl仓库readme和api文档）
 #### 完善主界面（qeft_menu_window.py/menu.ui）
 ### 截至到7/05日
 ---
 
 ### 食用说明
-编写ing
+[BK_EDLClient_API文档](BK_EDLVLIENT_API_README.md)
 
 ### 贡献
 #### *630*
