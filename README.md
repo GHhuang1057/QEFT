@@ -20,6 +20,7 @@
 
 cd res
 git clone https://github.com/bkerler/edl.git
+pip3 install -r requriements.txt
 ~~~
 
 ## 开发目标：2025/6/14更新
