@@ -41,4 +41,7 @@ pip3 install -r requriements.txt
 #### *630*
 #### *kirin7098*
 #### *huang1057*
+~~~
++ 基于https://github.com/bkerler/edl的开源项目开发，遵守GPL-V3开源协议
+~~~
 #### 欢迎贡献代码
