@@ -26,7 +26,7 @@ git clone https://github.com/bkerler/edl.git
 ### 本次开发目标
 #### 完善设备识别和加载逻辑（可以参考edl仓库readme）
 #### 完善主界面（qeft_menu_window.py/menu.ui）
-
+### 截至到7/05日
 ---
 
 ### 食用说明
