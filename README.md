@@ -2,6 +2,8 @@
 
 # 目前处于开发阶段，可能无法使用
 
+## 本项目基于[edl](https://github.com/bkerler/edl)开源项目开发，遵守GPL-V3开源协议
+
 ## ZH_CN/[English](EN_README.md)
 
 ### 项目简介
