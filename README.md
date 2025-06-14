@@ -12,9 +12,20 @@
 - - qeft_main_window.py：主窗口的设计文件
 - - qeft_start_window.py：启动窗口的设计文件
 - res文件夹：存放资源文件
+- - edl文件夹：存放edl项目文件
+
+### 开发说明
+~~~
+注意：本项目基于开源项目edl开发，项目代码中未包含edl项目的代码，刷机前请先下载/克隆edl项目并将其放入edl文件夹中。
+
+cd res
+git clone https://github.com/bkerler/edl.git
+~~~
+
 ## 开发目标：2025/6/14更新
 ### 本次开发目标
 #### 完善设备识别和加载逻辑（可以参考edl仓库readme）
+#### 完善主界面（qeft_menu_window.py/menu.ui）
 
 ---
 
@@ -22,4 +33,7 @@
 编写ing
 
 ### 贡献
+#### *630*
+#### *kirin7098*
+#### *huang1057*
 #### 欢迎贡献代码
