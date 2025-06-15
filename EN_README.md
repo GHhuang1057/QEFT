@@ -43,4 +43,8 @@ pip3 install -r requirements.txt
 #### *630*
 #### *kirin7098*
 #### *huang1057*
-#### Contributions welcome!
+---
+### Welcome to Contribute Code
+##### You can submit suggestions in issues or directly submit PRs
+##### Code contributions must comply with the GPL-V3 open-source license
+##### Code contributions require experience in Python and PyQt5 development

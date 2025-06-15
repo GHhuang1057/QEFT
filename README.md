@@ -47,3 +47,6 @@ pip3 install -r requriements.txt
 + 基于https://github.com/bkerler/edl的开源项目开发，遵守GPL-V3开源协议
 ~~~
 #### 欢迎贡献代码
+##### 可以在issue中提出建议，也可以直接提交PR
+##### 代码贡献需要遵循GPL-V3开源协议
+##### 代码贡献需要有一定的Python和PyQt5开发经验
